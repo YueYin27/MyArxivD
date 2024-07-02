@@ -1,8 +1,8 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
 let titles_model = ["NeRF", "Diffusion"];
-let titles_method = ["3D", "3D Reconstruction", "3D Vision", "Novel Scene Synthesis", "Translucent", "Transparent", "Glass", "Refraction", "Reflection", "Refractive", "Reflective"];
+let titles_method = ["3D", "3D Reconstruction", "3D Vision", "Novel Scene Synthesis", "Synthesis", "Translucent", "Transparent", "Glass", "Refraction", "Reflection", "Refractive", "Reflective"];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Dylan Campbell", "Weijian Deng", "Stephen Gould", "Kaiming He"];
+let authors_array = ["Dylan Campbell", "Weijian Deng", "Stephen Gould", "Hongdong Li", "Miaomiao Liu", "Jiang Zhang", "Kaiming He"];
 
 let conferences = [
     // AI
