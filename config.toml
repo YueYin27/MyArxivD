@@ -1,14 +1,14 @@
-site_title = "My Arxiv Daily"
+site_title = "MyArxivDaily"
 limit_days = 7
 cache_url = "https://yueyin27.github.io/MyArxivDaily/cache.json"
 
 [[sources]]
-limit = 100
+limit = 300
 category = "cs.CV"
 title = "Computer Vision and Pattern Recognition"
 
 [[sources]]
-limit = 100
+limit = 300
 category = "cs.LG"
 title = "Machine Learning"
 
