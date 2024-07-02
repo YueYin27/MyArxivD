@@ -1,6 +1,6 @@
 site_title = "My Arxiv Daily"
 limit_days = 7
-cache_url = "https://YueYin27.github.io/MyArxivDaily/cache.json"
+cache_url = "https://yueyin27.github.io/MyArxivDaily/cache.json"
 
 [[sources]]
 limit = 100
