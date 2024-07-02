@@ -1,4 +1,4 @@
-site_title = "MyArxivDaily"
+site_title = "MyArxiv"
 limit_days = 7
 cache_url = "https://yueyin27.github.io/MyArxivDaily/cache.json"
 
