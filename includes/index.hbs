@@ -47,13 +47,13 @@
 <section class="header-container">
     <div style="display:flex; justify-content:space-between; align-items:flex-end;">
         <div>
-            {{!-- <a href="https://github.com/MLNLP-World/MyArxiv" style="text-decoration: none;">
+            <!-- <a href="https://github.com/YueYin27/MyArxivDaily" style="text-decoration: none;">
                 <div class="header-title">
-                    <span class="header-title-preffix">MLNLP</span>//MyArxiv
+                    <span class="header-title-preffix">NotCraft</span>//MyArxivDaily
                 </div>
-            </a> --}}
+            </a> -->
             <div class="header-title">
-                MyArxiv
+                My Arxiv Daily
             </div>
         </div>
 
@@ -75,7 +75,7 @@
             <article>
                 <details>
                     <Summary>
-                        {{ subject }} <span class="chip" style="font-size: 60%">{{len papers}}</span>
+                        {{ subject }}
                     </Summary>
                     <div class="details-content">
                         {{#each papers}}
@@ -116,13 +116,12 @@
 <footer>
     <div>
         <time id="build-timestamp" datetime="{{build_time}}">
-            {{!-- <a href="https://github.com/MLNLP-World/MyArxiv/actions">
+            <!-- <a href="https://github.com/YueYin27/MyArxivDaily/actions">
                 <img id="build-timestamp-badge"
-                     src="https://img.shields.io/github/workflow/status/mlnlp-world/myarxiv/Update?label={{time_format
+                     src="https://img.shields.io/github/actions/workflow/status/NotCraft/ArxivDaily/update-feed.yml?label={{time_format
                     build_time "%F %T %Z"}}&style=for-the-badge"
                 alt="{{time_format build_time "%F %T %Z"}}">
-            </a> --}}
-            {{time_format build_time "%F %T %Z"}}
+            </a> -->
         </time>
     </div>
 </footer>
